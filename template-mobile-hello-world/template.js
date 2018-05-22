@@ -15,11 +15,13 @@ exports.getTemplate = function() {
 		},
 		{
 			"location": "/template-mobile-hello-world/node_modules/tabris/package.json", 
-			"action": "copy"
+			"action": "copy",
+			"rename": "/node_modules/tabris/package.json"
 		},
 		{
 			"location": "/template-mobile-hello-world/node_modules/tabris/tabris.min.js", 
-			"action": "copy"
+			"action": "copy",
+			"rename": "/node_modules/tabris/tabris.min.js"
 		}],
 		"parameters": []
 	};
