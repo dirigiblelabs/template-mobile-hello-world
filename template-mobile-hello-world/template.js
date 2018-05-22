@@ -6,7 +6,7 @@ exports.getTemplate = function() {
 		{
 			"location": "/template-mobile-hello-world/app.js.template", 
 			"action": "generate",
-			"rename": "app.js"
+			"rename": "{{fileName}}.js"
 		},
 		{
 			"location": "/template-mobile-hello-world/package.json.template", 
