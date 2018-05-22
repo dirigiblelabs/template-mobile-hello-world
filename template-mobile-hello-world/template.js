@@ -22,6 +22,11 @@ exports.getTemplate = function() {
 			"location": "/template-mobile-hello-world/node_modules/tabris/tabris.min.js", 
 			"action": "copy",
 			"rename": "/node_modules/tabris/tabris.min.js"
+		},
+		{
+			"location": "/template-mobile-hello-world/node_modules/tabris/boot.min.js", 
+			"action": "copy",
+			"rename": "/node_modules/tabris/boot.min.js"
 		}],
 		"parameters": []
 	};
